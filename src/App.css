@@ -1,0 +1,60 @@
+/* App.css */
+
+/* Apply universal background color */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Black background for the whole application */
+    color: #ffffff; /* White text color for contrast */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Ensure smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Styling for all links */
+  a {
+    color: #FFD43B; /* Accent color for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Card styling for a consistent look */
+  .card {
+    background-color: #333333; /* Dark gray for card background */
+    border: 1px solid #444444; /* Slight border for card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  }
+  
+  /* Table styling for consistent appearance */
+  .table {
+    color: #ffffff; /* White text color */
+    border-collapse: separate;
+    border-spacing: 0 10px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px; /* Consistent padding */
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #555555; /* Highlight row on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .table-responsive {
+      padding: 10px;
+    }
+  }
+  

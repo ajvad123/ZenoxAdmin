@@ -1,0 +1,39 @@
+/* Header.css */
+
+.bg-custom-header {
+    background-color: #343a40; /* Dark gray background */
+    padding: 10px 20px;
+    border-bottom: 2px solid #FFD43B; /* Accent color border */
+  }
+  
+  .brand-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #FFD43B; /* EduZenox accent color */
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-icon {
+    margin-right: 10px;
+    font-size: 2rem;
+    animation: fa-spin 2s infinite linear;
+  }
+  
+  
+  
+  @keyframes fa-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .admin-panel-title {
+      font-size: 1.25rem;
+    }
+  }
+  

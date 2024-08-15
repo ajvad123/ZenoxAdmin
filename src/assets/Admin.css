@@ -1,0 +1,77 @@
+/* Admin.css */
+
+#app {
+    background-color: #000000; /* Nice black background */
+    color: #ffffff; /* White text color for contrast */
+  }
+  #msg{
+    background-color: #000000; /* Nice black background */
+    color: #ffffff; /* White text color for contrast */
+
+  }
+  
+  .pagetitle .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FFD43B; /* Accent color */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #333333; /* Dark gray for card background */
+  }
+  
+  .card-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #FFD43B; /* Accent color */
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    margin-top: 20px;
+    border-collapse: separate !important;
+    border-spacing: 0 10px !important; /* Add spacing between rows */
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+    text-align: center;
+    color: #010000; /* White text color */
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #555555; /* Slightly lighter gray on hover */
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #444444; /* Darker gray for odd rows */
+  }
+  
+  .table-striped tbody tr:nth-of-type(even) {
+    background-color: #333333; /* Dark gray for even rows */
+  }
+  
+  .table thead th {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #222222; /* Very dark gray for header */
+  }
+  
+  .table-responsive {
+    padding: 15px;
+    border-radius: 10px;
+    background: #444444; /* Dark gray background */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  tbody tr {
+    transition: all 0.3s ease;
+  }
+  
