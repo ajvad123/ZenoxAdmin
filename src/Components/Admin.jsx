@@ -16,7 +16,7 @@ function Admin() {
     const handleStudentDetails=async()=>{
 
       const res= await getDetails()
-      console.log(res);
+      // console.log(res);
       setGetInfo(res.data)
       
     }

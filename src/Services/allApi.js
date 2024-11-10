@@ -10,3 +10,7 @@ export const getContact=async()=>{
 export const getDetails=async()=>{
     return commonApi("GET",`${base_url}/getDetails`,"","")
 }
+
+export const getSoftEnq=async()=>{
+    return commonApi("GET",`${base_url}/getSoftEnq`,"","")
+}

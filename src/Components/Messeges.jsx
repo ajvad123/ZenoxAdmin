@@ -27,7 +27,7 @@ function messeges() {
     <div id="msg" className="p-4  flex-grow-1">
     <main id="main" className="main">
       <div className="pagetitle mb-4 text-center">
-        <h1 className="title">Enquiries</h1>
+        <h1 className="title">EduNox Enquiries</h1>
       </div>
       <section className="section">
         <div className="row">

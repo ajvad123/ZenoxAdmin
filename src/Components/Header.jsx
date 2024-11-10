@@ -9,7 +9,7 @@ function Header() {
         <Navbar.Brand href="#home" className="d-flex align-items-center">
           <h2 className="brand-title">
             <i className="fa-solid fa-graduation-cap fa-fade brand-icon"></i>
-            EduZenox
+            EduNox Panel
           </h2>
         </Navbar.Brand>
         <Navbar.Toggle />

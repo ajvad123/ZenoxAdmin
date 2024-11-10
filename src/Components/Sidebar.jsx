@@ -16,7 +16,10 @@ function Sidebar() {
             <i className="bi bi-circle"></i> Student Details
           </Nav.Link>
           <Nav.Link href="#msg" className="text-white ms-3 active">
-            <i className="bi bi-circle"></i> Messeges
+            <i className="bi bi-circle"></i> EduNox Enquiries
+          </Nav.Link>
+          <Nav.Link href="#soft" className="text-white ms-3 active">
+            <i className="bi bi-circle"></i> Software Enquiries
           </Nav.Link>
         </div>
       </Nav>

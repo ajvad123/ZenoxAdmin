@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Admin from './Components/Admin';
 import Sidebar from './Components/Sidebar';
 import Messeges from './Components/Messeges'
+import SoftEnq from './Components/SoftEnq';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
         <div className="flex-grow-1">
           <Admin />
           <Messeges/>
+          <SoftEnq/>
         </div>
       </div>
       {/* <Footer /> */}
